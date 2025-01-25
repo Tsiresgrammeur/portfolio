@@ -9426,7 +9426,15 @@ textarea.form-control {
   @media (max-width: 767.98px) {
     .contact-section .contact-form .btn-primary {
       display: block;
-      width: 100%; } }
+      width: 100%; }
+        .one-third {
+          background-position: center 5%; /* Déplace l'image vers le bas */
+      }
+
+      .project-title{
+        display: none;
+      }
+     }
 
 .block-9 .form-control {
   outline: none !important;
