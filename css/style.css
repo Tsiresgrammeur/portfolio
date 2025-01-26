@@ -5541,6 +5541,7 @@ button.bg-dark:focus {
   display: -ms-flexbox !important;
   display: flex !important; }
 
+
 .d-inline-flex {
   display: -webkit-inline-box !important;
   display: -ms-inline-flexbox !important;
@@ -9004,11 +9005,19 @@ h1, h2, h3, h4, h5,
       .project .text {
         opacity: 1; }
         .project .text span {
-          color: rgba(255, 255, 255, 0.8); } }
+          color: rgba(255, 255, 255, 0.8); }
+
+  .about-info .d-flex span{
+    font-size: 0.9rem;
+  }
+         }
   .project:hover .overlay, .project:focus .overlay {
     opacity: .9; }
   .project:hover .text, .project:focus .text {
-    opacity: 1; }
+    opacity: 1;
+
+   }
+
 
 .aside-stretch {
   background: #ffce6c; }
