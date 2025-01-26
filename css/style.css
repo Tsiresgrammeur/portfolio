@@ -9434,6 +9434,10 @@ textarea.form-control {
       .project-title{
         display: none;
       }
+
+      .lost{
+        background-image: none;
+      }
      }
 
 .block-9 .form-control {
