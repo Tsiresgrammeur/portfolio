@@ -9434,11 +9434,36 @@ textarea.form-control {
       .project-title{
         display: none;
       }
-
-      .lost{
-        background-image: none;
-      }
      }
+
+
+     #home-section {
+      position: relative; /* Ensure it's not fixed */
+      overflow: auto; /* Allows scrolling */
+    }
+    
+    .slider-item {
+      position: relative; /* Ensure it's not covering content unexpectedly */
+    }
+
+    .js-fullheight {
+      height: 100vh; /* Use 100vh on larger devices */
+    }
+    
+    @media screen and (max-width: 768px) {
+      .js-fullheight {
+        height: auto; /* Allow full content height for small screens */
+      }
+    }
+
+    html, body {
+      overflow-x: hidden; /* If horizontal scrolling isn't needed */
+      overflow-y: auto; /* Always allow vertical scrolling */
+    }
+    
+    .home-slider {
+      overflow: visible; /* Avoid clipping child elements */
+    }
 
 .block-9 .form-control {
   outline: none !important;
